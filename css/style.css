@@ -98,7 +98,8 @@ p.p-fluency{
   font-weight: 500;
   word-spacing: 2.5px;
 }
-.colonne-tris::after{
+.colonne-tris::after,
+.colonne-bis::after{
  content: "";
  display: block;
  clear: both;
@@ -118,7 +119,7 @@ p.p-fluency{
 img.profile,
 img.pc,
 img.doc{
-  border-radius: 15px;
+  
   width: 100%;
   height: 150px;
   object-fit: contain;
