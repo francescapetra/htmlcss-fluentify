@@ -3,3 +3,33 @@
   padding: 0;
   box-sizing: border-box;
 }
+header{
+  width:100%;
+  height: 600px;
+  background-color: #0C325A;
+}
+.contenitore{
+  width: 80%;
+  background-color: lightblue;
+  margin: auto;
+  padding-top: 15px;
+}
+#logo{
+  height: 45px;
+  width: 10%;
+  vertical-align: middle;
+}
+.bar, li{
+  display: inline-block;
+  vertical-align: middle;
+}
+nav.bar.centrale{
+width: 46%;
+background-color: lightgreen;
+margin: 1.5% ;
+}
+
+nav.bar.laterale{
+  width: 40%;
+  background-color: pink;
+}
