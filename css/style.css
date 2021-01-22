@@ -33,7 +33,6 @@ header{
 }
 nav.bar.centro{
 width: 46%;
-/* background-color: lightgreen; */
 margin: 0 4% ;
 }
 ul, li, a:not(.different){
@@ -47,7 +46,6 @@ ul, li, a:not(.different){
 }
 nav.bar.lato{
   width: 35%;
-  /* background-color: pink; */
 }
 .login, .piano{
   border-radius: 7px;
@@ -115,7 +113,7 @@ p.p-livello{
 .colonne-bis{
   max-width: 80%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .laterale,
 .centrale{
@@ -185,17 +183,19 @@ p.lorem{
     padding: 50px 100px;
   }
   .seleziona{
-  text-decoration: underline;
-  text-underline-position: under;
-  margin: 0 60px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 50px;
+    padding: 0 30px 0 0;
   }
   span{
   color:gray;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  }
-  .triangolo{
-    font-size: 30px;
   }
   .supporto{
     width: 100%;
