@@ -109,7 +109,8 @@ p.p-livello{
  display: block;
  clear: both;
 }
-.colonne-tris{
+.colonne-tris,
+.colonne-bis{
   max-width: 80%;
   height: 400px;
   margin: auto;
@@ -152,25 +153,24 @@ p.lorem{
   line-height: 1.5;
   color: gray;
 }
-section.colonne-bis{
-  max-width: 80%;
-  height: 400px;
-  margin: auto;
-  margin-bottom: 70px;
-}
 .secondo-lato{
   width:calc(50% - 20px);
   margin:30px 5px;
   float: left;
-  padding: 0 25px;
+  padding: 0 50px;
   }
   h2.livello{
     font-size: 36px;
-    width: 80%;
+    width: 100%;
     font-weight: 500;
   }
   p.p-livello{
     width: 80%;
     line-height: 1.3;
     padding:20px 0;
+  }
+  .pie-pagina{
+    width: 100%;
+    height: 150px;
+    background-color: #D3D3D3;
   }
