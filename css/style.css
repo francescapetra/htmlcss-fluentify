@@ -36,7 +36,7 @@ width: 46%;
 /* background-color: lightgreen; */
 margin: 0 4% ;
 }
-ul, li, a not(.different){
+ul, li, a:not(.different){
   list-style: none;
   text-decoration: none;
   color: white;
@@ -80,7 +80,8 @@ main{
   width: 100%;
   margin: auto;
 }
-.scuole-fluency{
+.scuole-fluency,
+.struttura-piano{
   width: 100%;
   height: 150px;
   background-color: #D3D3D3;
@@ -169,8 +170,5 @@ p.lorem{
     line-height: 1.3;
     padding:20px 0;
   }
-  .pie-pagina{
-    width: 100%;
-    height: 150px;
-    background-color: #D3D3D3;
+  h2.pie-pagina{
   }
