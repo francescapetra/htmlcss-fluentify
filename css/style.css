@@ -36,7 +36,7 @@ width: 46%;
 /* background-color: lightgreen; */
 margin: 0 4% ;
 }
-ul, li, a{
+ul, li, a not(.different){
   list-style: none;
   text-decoration: none;
   color: white;
@@ -76,9 +76,13 @@ h1{
 a.piano.due{
   padding:20px;
 }
+main{
+  width: 100%;
+  margin: auto;
+}
 .scuole-fluency{
   width: 100%;
-  height: 170px;
+  height: 150px;
   background-color: #D3D3D3;
 }
 .titolo-fluency,
@@ -88,16 +92,16 @@ a.piano.due{
   line-height: 1.5;
 }
 h2.titolo-fluency{
-  font-size: 28px;
+  font-size: 26px;
   padding-top: 45px;
   font-weight:600;
 }
-p.p-fluency{
-  font-size: 21px;
+p.p-fluency,
+p.p-livello{
+  font-size: 19px;
   color: gray;
   padding-top: 5px;
   font-weight: 500;
-  word-spacing: 2.5px;
 }
 .colonne-tris::after,
 .colonne-bis::after{
@@ -113,14 +117,13 @@ p.p-fluency{
 }
 .laterale,
 .centrale{
-   width:33%;
+   width:33.3%;
    float: left;
-   padding: 0 25px;
+   padding: 0 15px;
 }
 img.profile,
 img.pc,
 img.doc{
-
   width: 100%;
   height: 150px;
   object-fit: contain;
@@ -131,9 +134,9 @@ h3{
 color: #7CBB02;
 width: 100%;
 text-align: center;
-font-size: 24px;
+font-size: 22px;
 display: inline-block;
-padding: 22px;
+padding: 22px 0;
 font-weight: 500;
 }
 .interruzione{
@@ -143,8 +146,31 @@ font-weight: 500;
   margin: auto;
 }
 p.lorem{
+  width: 100%;
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
   color: gray;
 }
+section.colonne-bis{
+  max-width: 80%;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.secondo-lato{
+  width:calc(50% - 20px);
+  margin:30px 5px;
+  float: left;
+  padding: 0 25px;
+  }
+  h2.livello{
+    font-size: 36px;
+    width: 80%;
+    font-weight: 500;
+  }
+  p.p-livello{
+    width: 80%;
+    line-height: 1.3;
+    padding:20px 0;
+  }
